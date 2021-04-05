@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-container {
+  width: 80vw;
+}
+
+.question-container {
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+.translation {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 8px 10px;
+  margin: 20px 0;
+}
+
+button i {
+  padding: 0 10px 0 5px;
+}
+
+h2 {
+  font-weight: 300;
+}
+h3 {
+  padding-bottom: 3px;
+}
+h4 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 500;
+}
+
+ol {
+  font-weight: 300;
+}

@@ -6,23 +6,26 @@
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+
   </head>
   <body>
-    <head>
+    <header>
       <div class="image-container">
-        <a href="https://justfollowyourart.com/">
+        <a href="https://justfollowyourart.com/" target="_blank" rel="noopener noreferrer"> 
           <img
             src="assets/revolution-inclusion.svg"
             alt="The Revolution Is Inclusion"
           />
         </a>
-        <p>Image soure: Jesi Ekonen, JustFollowYourArt</p>
+        <p>Image soure: Jesi Ekonen, JustFollowYourArt.com</p>
       </div>
       <h1>WEB ACCESSIBILITY & ADA COMPLIANCE</h1>
       <h2>(According to Kris Rivenburgh)</h2>
-      <button class="jump">Jump To Checklist</button>
-      <button class="download">Download as PDF</button>
-    </head>
+      <button class="jump"><i class="fas fa-arrow-down"></i>Jump To Checklist</button>
+      <a href="assets/WebAccessibility-BeginnersGuide.pdf" download="assets/WebAccessibility-BeginnersGuide.pdf"><button class="download"><i class="far fa-file-pdf"></i>Download as PDF</button></a>
+    </header>
     <main>
       <!-- Container for all informational question/answer components -->
       <div class="education-container">
@@ -59,14 +62,11 @@
         <div class="question-container">
           <!-- Question -->
           <h3>But, that’s not the Law.</h3>
-          <p>
-            There actually is no law for private entities in the U.S. that
-            mandates web accessibility
-          </p>
           <!-- Answer -->
           <div class="answer">
             <p>
-              The law that primarily governs accessibility in the U.S. is the
+              There actually is no law for private entities in the U.S. that
+              mandates web accessibility. The law that primarily governs accessibility in the U.S. is the
               <strong>Americans with Disabilities Act (ADA).</strong> The gist
               of the ADA is if you don’t make things accessible, then you’re
               discriminating against those with disabilities.
@@ -93,10 +93,6 @@
         <div class="question-container">
           <!-- Question -->
           <h3>So what are the guidelines?</h3>
-          <p>
-            Let’s talk about
-            <strong>Web Content Accessibility Guidelines</strong> (WCAG)
-          </p>
           <!-- Answer -->
           <div class="answer">
             <p>
@@ -143,14 +139,11 @@
         <div class="question-container">
           <!-- Question -->
           <h3>That’s A Lot To Remember...</h3>
-          <p>
-            But, just because our website doesn’t fully meet a WCAG success
-            criterion doesn’t mean we’re in violation of the ADA
-          </p>
           <!-- Answer -->
           <div class="answer">
             <p>
-              Until the DOJ adopts specific technical requirements for web
+              But, just because our website doesn’t fully meet a WCAG success
+            criterion doesn’t mean we’re in violation of the ADA. Until the DOJ adopts specific technical requirements for web
               accessibility in a final rule, if you’re subject to the ADA,
               <strong
                 >you have more flexibility in determining how to make your
@@ -178,13 +171,10 @@
           <div class="question-container">
             <!-- Question -->
             <h3>The Ultimate Goal</h3>
-            <p>
-              Try your best to meet as many of the WCAG success criteria as best you can.
-            </p>
             <!-- Answer -->
             <div class="answer">
               <p>
-                <strong>Also, ask yourself the following two questions:</strong>
+                Try your best to meet as many of the WCAG success criteria as best you can. <strong>Also, ask yourself the following two questions:</strong>
                 <ol>
                   <li>What is the primary purpose of my website?</li>
                     <li>What are the common paths that visitors take once they’re on my website?</li>
