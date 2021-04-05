@@ -1,13 +1,224 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Accessibility</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Accessibility</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <head>
+      <div class="image-container">
+        <a href="https://justfollowyourart.com/">
+          <img
+            src="assets/revolution-inclusion.svg"
+            alt="The Revolution Is Inclusion"
+          />
+        </a>
+        <p>Image soure: Jesi Ekonen, JustFollowYourArt</p>
+      </div>
+      <h1>WEB ACCESSIBILITY & ADA COMPLIANCE</h1>
+      <h2>(According to Kris Rivenburgh)</h2>
+      <button class="jump">Jump To Checklist</button>
+      <button class="download">Download as PDF</button>
+    </head>
+    <main>
+      <!-- Container for all informational question/answer components -->
+      <div class="education-container">
+        <!-- First question/answer component -->
+        <div class="question-container">
+          <!-- Question -->
+          <h3>What is ADA Compliance?</h3>
+          <!-- Answer -->
+          <div class="answer">
+            <p>
+              ADA website compliance essentially comes down to making your
+              website conformant with the
+              <strong>WCAG 2.1 AA technical standards.</strong>
+            </p>
+          </div>
+          <!-- Translation container -->
+          <div class="translation">
+            <h4>TRANSLATION:</h4>
+            <p>
+              <strong>
+                You have a to-do checklist of 50 accessibility things to account
+                for on your website, mobile app, etc. to be more or less
+                practically compliant with the ADA</strong
+              >
+              (i.e., you shouldn’t receive a demand letter / lawsuit if you do
+              these things).
+            </p>
+            <!-- End translation container -->
+          </div>
+          <!-- End first question container -->
+        </div>
+
+        <!-- Second question/answer component -->
+        <div class="question-container">
+          <!-- Question -->
+          <h3>But, that’s not the Law.</h3>
+          <p>
+            There actually is no law for private entities in the U.S. that
+            mandates web accessibility
+          </p>
+          <!-- Answer -->
+          <div class="answer">
+            <p>
+              The law that primarily governs accessibility in the U.S. is the
+              <strong>Americans with Disabilities Act (ADA).</strong> The gist
+              of the ADA is if you don’t make things accessible, then you’re
+              discriminating against those with disabilities.
+            </p>
+          </div>
+          <!-- Translation container -->
+          <div class="translation">
+            <h4>TRANSLATION:</h4>
+            <p>
+              Make it so that our websites<strong>
+                provide for meaningful access and effective communication for
+                everyone,</strong
+              >
+              including persons with disabilities, so they can enjoy the “full
+              and equal” use of your website; they can access content, navigate
+              your website successfully, engage with different elements, etc.
+            </p>
+            <!-- End translation container -->
+          </div>
+          <!-- End second question container -->
+        </div>
+
+        <!-- Third question/answer component -->
+        <div class="question-container">
+          <!-- Question -->
+          <h3>So what are the guidelines?</h3>
+          <p>
+            Let’s talk about
+            <strong>Web Content Accessibility Guidelines</strong> (WCAG)
+          </p>
+          <!-- Answer -->
+          <div class="answer">
+            <p>
+              There are different versions (1.0, 2.0, 2.1) and conformance
+              levels (A, AA, AAA) for WCAG but the two most important ones are
+              <strong> WCAG 2.0 AA</strong> and <strong>WCAG 2.1 AA</strong>
+            </p>
+          </div>
+          <!-- Translation container -->
+          <div class="translation">
+            <h4>TRANSLATION:</h4>
+            <p>
+              <strong>
+                Think of these as success criteria as bullet points or things to
+                do to make your website more accessible.</strong
+              >
+              2.0 is the classic standard and 2.1 is the current standard. 2.0
+              was published in 2008 so it’s missing some key mobile
+              accessibility issues. It’s helpful to know that 2.1 AA includes
+              all of 2.0 AA.
+            </p>
+            <!-- End translation container -->
+          </div>
+          <!-- End third question container -->
+        </div>
+
+        <!-- Fourth question/answer component -->
+        <div class="question-container">
+          <!-- Question -->
+          <h3>The Beginner’s Guide to ADA</h3>
+          <p>
+            The condensed version of WCAG 2.0 to get us started (Drum roll
+            please…)
+          </p>
+          <!-- End fourth question container -->
+        </div>
+
+        <!-- End education container -->
+      </div>
+
+      <app-root></app-root>
+
+      <div class="education-container">
+        <div class="question-container">
+          <!-- Question -->
+          <h3>That’s A Lot To Remember...</h3>
+          <p>
+            But, just because our website doesn’t fully meet a WCAG success
+            criterion doesn’t mean we’re in violation of the ADA
+          </p>
+          <!-- Answer -->
+          <div class="answer">
+            <p>
+              Until the DOJ adopts specific technical requirements for web
+              accessibility in a final rule, if you’re subject to the ADA,
+              <strong
+                >you have more flexibility in determining how to make your
+                website compliant</strong
+              >
+              with the ADA’s general requirements of nondiscrimination and
+              effective communication.
+            </p>
+          </div>
+          <!-- Translation container -->
+          <div class="translation">
+            <h4>TRANSLATION:</h4>
+            <p>
+              Some of these 50 to-dos are much more critical than others (both
+              in terms of accessibility and legal risk). Two big accessibility
+              items in lawsuits are <strong> 1. missing alt text</strong> and
+              <strong>2. missing labels.</strong>
+            </p>
+            <!-- End translation container -->
+          </div>
+          <!-- End fourth question container -->
+
+
+
+          <div class="question-container">
+            <!-- Question -->
+            <h3>The Ultimate Goal</h3>
+            <p>
+              Try your best to meet as many of the WCAG success criteria as best you can.
+            </p>
+            <!-- Answer -->
+            <div class="answer">
+              <p>
+                <strong>Also, ask yourself the following two questions:</strong>
+                <ol>
+                  <li>What is the primary purpose of my website?</li>
+                    <li>What are the common paths that visitors take once they’re on my website?</li>
+                </ol>
+
+              </p>
+            </div>
+            <!-- Translation container -->
+            <div class="translation">
+              <h4>TRANSLATION:</h4>
+              <p>
+                You want to make absolutely sure both the primary purpose and common paths
+are clear of any barriers that could potentially prevent access or cause frustration.
+              </p>
+              <!-- End translation container -->
+            </div>
+            <!-- End fourth question container -->
+
+
+
+
+        </div>
+        <!-- End second education container -->
+      </div>
+      <div class="highlight-statement">
+        <h3>Real accessibility takes
+          genuine time and manual effort.</h3>
+          <p>There are no quick solutions or easy workarounds, so If it seems like you’re being a
+            sold an instant fix to website accessibility, you’re on the wrong path.</p>
+      </div>
+      <div class="resources">
+        <h3>Additional Resources</h3>
+        <p>Insert links</p>
+      </div>
+    </main>
+  </body>
 </html>
