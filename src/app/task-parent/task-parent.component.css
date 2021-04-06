@@ -1,5 +1,5 @@
 .alternative-container {
-  padding: 30px 100px 10px 100px;
+  padding: 10px 100px;
 }
 
 .checklist-child {
@@ -11,7 +11,7 @@
 }
 .checklist-child:hover {
   border: 1px solid #eeeeee;
-  filter: drop-shadow(2px 5px 5px #888888);
+  filter: drop-shadow(2px 5px 10px #888888);
 }
 
 .presentation-container {
@@ -21,4 +21,16 @@
 
 .userControl-container {
   padding: 30px 100px 10px 100px;
+}
+.understandable-container {
+  padding: 30px 100px 10px 100px;
+}
+
+.predictability-container {
+  padding: 30px 100px 10px 100px;
+}
+
+.container-header {
+  font-size: 24px;
+  margin-bottom: 5px;
 }

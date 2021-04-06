@@ -4,15 +4,23 @@
   align-items: center;
 }
 .checkbox.alternative:hover {
-  background-color: #fff0cc;
+  background-color: #d8e3ce;
 }
 
 .checkbox.presentation:hover {
-  background-color: thistle;
+  background-color: #f9e7b3;
 }
 
 .checkbox.userControl:hover {
-  background-color: rgb(245, 182, 177);
+  background-color: rgb(244, 205, 203);
+}
+
+.checkbox.understandable:hover {
+  background-color: #ffe4d5;
+}
+
+.checkbox.predictability:hover {
+  background-color: #e1ebec;
 }
 
 input {

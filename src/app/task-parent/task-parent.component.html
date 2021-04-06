@@ -1,4 +1,5 @@
 <div class="alternative-container">
+  <h2 class="container-header">Alternatives</h2>
   <div class="checklist-child">
     <app-task
       class="alternative"
@@ -11,6 +12,7 @@
 </div>
 
 <div class="presentation-container">
+  <h2 class="container-header">Presentation</h2>
   <div class="checklist-child">
     <app-task
       class="presentation"
@@ -23,6 +25,7 @@
 </div>
 
 <div class="userControl-container">
+  <h2 class="container-header">User Control</h2>
   <div class="checklist-child">
     <app-task
       class="userControl"
@@ -30,6 +33,32 @@
       [listItem]="userControl"
       [i]="i"
       [sectionTitle]="userControl.sectionTitle"
+    ></app-task>
+  </div>
+</div>
+
+<div class="understandable-container">
+  <h2 class="container-header">Understandable</h2>
+  <div class="checklist-child">
+    <app-task
+      class="understandable"
+      *ngFor="let understandable of understandables; let i = index"
+      [listItem]="understandable"
+      [i]="i"
+      [sectionTitle]="understandable.sectionTitle"
+    ></app-task>
+  </div>
+</div>
+
+<div class="predictability-container">
+  <h2 class="container-header">Predictability</h2>
+  <div class="checklist-child">
+    <app-task
+      class="predictability"
+      *ngFor="let predictability of predictabilities; let i = index"
+      [listItem]="predictability"
+      [i]="i"
+      [sectionTitle]="predictability.sectionTitle"
     ></app-task>
   </div>
 </div>
