@@ -11,7 +11,7 @@
 }
 .checklist-child:hover {
   border: 1px solid #eeeeee;
-  filter: drop-shadow(2px 5px 5px #b6b6b6);
+  filter: drop-shadow(2px 5px 5px #888888);
 }
 
 .presentation-container {
