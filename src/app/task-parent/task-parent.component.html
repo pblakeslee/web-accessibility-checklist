@@ -1,6 +1,7 @@
 <div class="alternative-container">
   <div class="checklist-child">
     <app-task
+      class="alternative"
       *ngFor="let alternative of alternatives; let i = index"
       [listItem]="alternative"
       [i]="i"
@@ -12,6 +13,7 @@
 <div class="presentation-container">
   <div class="checklist-child">
     <app-task
+      class="presentation"
       *ngFor="let presentation of presentations; let i = index"
       [listItem]="presentation"
       [i]="i"
@@ -23,6 +25,7 @@
 <div class="userControl-container">
   <div class="checklist-child">
     <app-task
+      class="userControl"
       *ngFor="let userControl of userControls; let i = index"
       [listItem]="userControl"
       [i]="i"

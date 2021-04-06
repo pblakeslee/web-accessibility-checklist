@@ -3,9 +3,16 @@
   display: flex;
   align-items: center;
 }
-
-.checkbox:hover {
+.checkbox.alternative:hover {
   background-color: #fff0cc;
+}
+
+.checkbox.presentation:hover {
+  background-color: thistle;
+}
+
+.checkbox.userControl:hover {
+  background-color: rgb(245, 182, 177);
 }
 
 input {

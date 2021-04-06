@@ -129,14 +129,14 @@ ol {
   padding: 10px 0 0 40px;
 }
 .highlight-statement {
-  background-color: #2b2b2b;
+  background-color: #78909c;
   color: white;
   padding: 30px 0px;
 }
 
 .resources {
+  background-color: #2b2b2b;
   color: white;
-  background-color: #165b60;
   padding: 20px 0px;
 }
 
@@ -161,9 +161,20 @@ ol {
   padding: 10px 100px;
 }
 
+.resource-links-container i {
+  padding-left: 20px;
+}
+
 .resource-links-container li,
 .resource-links-container a {
   color: white;
+  text-decoration: none;
   font-weight: 300;
   padding: 5px 0;
+}
+.resource-links-container li:hover,
+.resource-links-container a:hover {
+  background-color: #464646;
+  text-decoration: underline;
+  border-radius: 20px;
 }
