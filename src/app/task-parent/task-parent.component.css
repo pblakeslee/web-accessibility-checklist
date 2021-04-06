@@ -1,18 +1,24 @@
 .alternative-container {
-  padding: 30px 100px;
+  padding: 30px 100px 10px 100px;
 }
 
 .checklist-child {
-  border: 2px solid #3e79ce;
   border-radius: 20px;
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  border: 1px solid #b6b6b6;
+}
+.checklist-child:hover {
+  border: 1px solid #eeeeee;
+  filter: drop-shadow(2px 5px 5px #b6b6b6);
 }
 
 .presentation-container {
   color: black;
-  padding: 30px 100px;
+  padding: 30px 100px 10px 100px;
 }
 
 .userControl-container {
-  padding: 30px 100px;
+  padding: 30px 100px 10px 100px;
 }

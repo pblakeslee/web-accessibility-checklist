@@ -1,5 +1,11 @@
 .checkbox {
-  padding: 10px 0;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox:hover {
+  background-color: #ffe9b5;
 }
 
 input {
