@@ -1,0 +1,18 @@
+.alternative-container {
+  padding: 30px 100px;
+}
+
+.checklist-child {
+  border: 2px solid #3e79ce;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.presentation-container {
+  color: black;
+  padding: 30px 100px;
+}
+
+.userControl-container {
+  padding: 30px 100px;
+}

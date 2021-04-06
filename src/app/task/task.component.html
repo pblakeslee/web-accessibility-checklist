@@ -1,1 +1,10 @@
-<p>task works!</p>
+<div class="checkbox">
+  <input
+    type="checkbox"
+    id="{{ sectionTitle }}{{ i }}"
+    name="{{ sectionTitle }}{{ i }}"
+  />
+  <label for="{{ sectionTitle }}{{ i }}"
+    ><strong>{{ listItem?.section }}</strong> {{ listItem?.message }}
+  </label>
+</div>

@@ -1,2 +1,32 @@
-<p>task-parent works!</p>
-<app-task></app-task>
+<div class="alternative-container">
+  <div class="checklist-child">
+    <app-task
+      *ngFor="let alternative of alternatives; let i = index"
+      [listItem]="alternative"
+      [i]="i"
+      [sectionTitle]="alternative.sectionTitle"
+    ></app-task>
+  </div>
+</div>
+
+<div class="presentation-container">
+  <div class="checklist-child">
+    <app-task
+      *ngFor="let presentation of presentations; let i = index"
+      [listItem]="presentation"
+      [i]="i"
+      [sectionTitle]="presentation.sectionTitle"
+    ></app-task>
+  </div>
+</div>
+
+<div class="userControl-container">
+  <div class="checklist-child">
+    <app-task
+      *ngFor="let userControl of userControls; let i = index"
+      [listItem]="userControl"
+      [i]="i"
+      [sectionTitle]="userControl.sectionTitle"
+    ></app-task>
+  </div>
+</div>

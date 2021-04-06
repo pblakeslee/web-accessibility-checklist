@@ -16,11 +16,24 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
-  margin: 40px 0;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #2b2b2b;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  margin: 30px 10px 30px 10px;
+}
+
+.logo img {
+  max-width: 250px;
+  padding-left: 30px;
+}
 .image-container {
   margin-bottom: 40px;
   display: flex;
@@ -51,10 +64,19 @@ img {
   padding: 15px;
   background-color: #eeeeee;
 }
-
+.button-container {
+  padding-right: 20px;
+}
 button {
   padding: 8px 10px;
-  margin: 30px 0 20px 0;
+  border-radius: 20px;
+  border: 2px solid #2b2b2b;
+  background-color: transparent;
+}
+
+button.contribute {
+  background-color: #2b2b2b;
+  color: white;
 }
 
 button i {
@@ -90,6 +112,9 @@ ol {
   font-weight: 300;
 }
 
+.answer ol {
+  padding: 10px 0 0 40px;
+}
 .highlight-statement {
   background-color: #2b2b2b;
   color: white;
