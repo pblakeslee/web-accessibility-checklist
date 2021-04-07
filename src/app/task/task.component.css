@@ -34,3 +34,28 @@ label {
 label strong {
   font-weight: 700;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 940px) {
+  .checkbox {
+    padding: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .checkbox {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .checkbox {
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .checkbox {
+    padding: 10px 10px;
+  }
+}

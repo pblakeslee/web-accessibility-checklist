@@ -1,5 +1,5 @@
-.alternative-container {
-  padding: 10px 100px;
+.checklist-parent {
+  padding: 30px 100px 10px 100px;
 }
 
 .checklist-child {
@@ -14,23 +14,32 @@
   filter: drop-shadow(2px 5px 10px #888888);
 }
 
-.presentation-container {
-  color: black;
-  padding: 30px 100px 10px 100px;
-}
-
-.userControl-container {
-  padding: 30px 100px 10px 100px;
-}
-.understandable-container {
-  padding: 30px 100px 10px 100px;
-}
-
-.predictability-container {
-  padding: 30px 100px 10px 100px;
-}
-
 .container-header {
   font-size: 24px;
   margin-bottom: 5px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 940px) {
+  .checklist-parent {
+    padding: 30px 80px 10px 80px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .checklist-parent {
+    padding: 30px 60px 10px 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .checklist-parent {
+    padding: 30px 40px 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .checklist-parent {
+    padding: 30px 20px 10px 20px;
+  }
 }
