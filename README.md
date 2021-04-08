@@ -1,5 +1,22 @@
-# Accessibility
+![Artboard 2_4-25x5-5](https://user-images.githubusercontent.com/75629802/113951240-2dfe2c00-97e1-11eb-9158-534e89459ee0.jpg)
 
+
+# accessibility.how
+This site is a useful guide for all developers navigating through web accessibility. It acts as a personal checklist for working through the Web Content Accessibility Guidelines (WCAG).
+
+## Motivation
+This checklist was designed to be intentionally simple, yet educational, so that developers had a quick refence guide for making their applications and experience as inclusive as possible. I firmly believe that our job as developers is to make the user’s journey to information easier, not to decide who should and shouldn’t be able to access it based on ability.
+
+## Screenshots
+
+
+![Screen Shot 2021-04-07 at 8 34 39 PM](https://user-images.githubusercontent.com/75629802/113951921-9699d880-97e2-11eb-8f46-38040e149a9c.png)
+
+![Screen Shot 2021-04-07 at 8 35 10 PM](https://user-images.githubusercontent.com/75629802/113951917-9568ab80-97e2-11eb-8cc8-187edf7ef679.png)
+
+
+
+## Technology Used
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
