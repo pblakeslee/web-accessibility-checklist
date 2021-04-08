@@ -1,5 +1,3 @@
-![Artboard 2_4-25x5-5](https://user-images.githubusercontent.com/75629802/113951240-2dfe2c00-97e1-11eb-9158-534e89459ee0.jpg)
-
 
 # accessibility.how
 This site is a useful guide for all developers navigating through web accessibility. It acts as a personal checklist for working through the Web Content Accessibility Guidelines (WCAG).
